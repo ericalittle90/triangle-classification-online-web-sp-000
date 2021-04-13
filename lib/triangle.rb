@@ -8,4 +8,9 @@ class Triangle
     @c = c
   end
 
+
+  class TriangleError < StandardError 
+
+  end 
+
 end
